@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Darsh Solanki — Aspiring Software Engineer and Full Stack Developer from Vadodara, Gujarat.">
+  <meta name="theme-color" content="#f7f8fc">
+  <title>Darsh Solanki | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Main navigation -->
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Darsh<span>.dev</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle"
+          type="button" aria-label="Switch to dark mode">
+          <span id="themeIcon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> IT Student · Developer in Progress</p>
+        <h1>Hi, I'm Darsh.<br>
+          I build <span class="accent">things for the web.</span>
+        </h1>
+        <p class="hero-description">
+          Aspiring Software Engineer &amp; Full Stack Developer,
+          focused on building practical applications, reliable APIs,
+          and clean user experiences.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Get In Touch <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#projects">Explore Projects</a>
+        </div>
+
+        <div class="social-links">
+          <!-- Replace these URLs with your real profiles -->
+          <a href="https://github.com/YOUR_USERNAME" target="_blank"
+            rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/YOUR_USERNAME/"
+            target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="Developer introduction">
+        <div class="card-top">
+          <span class="window-dot"></span>
+          <span class="window-dot"></span>
+          <span class="window-dot"></span>
+          <span class="file-name">developer.js</span>
+        </div>
+        <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Darsh Solanki"</span>,
+  location: <span class="code-green">"Gujarat, India"</span>,
+  education: <span class="code-green">"Information Technology"</span>,
+  interests: [
+    <span class="code-green">"Backend Development"</span>,
+    <span class="code-green">"REST APIs"</span>,
+    <span class="code-green">"Full Stack Systems"</span>
+  ],
+  mindset: <span class="code-green">"Learn. Build. Improve."</span>
+};</code></pre>
+        <div class="card-bottom">
+          <span class="status-dot"></span> Always learning, always building
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Turning curiosity into <span class="accent">code.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div>
+            <p>
+              I'm Darsh Solanki, an Information Technology student at
+              Drs. Kiran &amp; Pallavi Patel Global University, Gujarat.
+              I'm building a strong foundation in programming, software
+              development, and problem-solving through hands-on projects.
+            </p>
+            <p>
+              I'm particularly interested in backend architecture, REST
+              APIs, database design, and full-stack systems. I enjoy
+              understanding how applications work behind the scenes and
+              turning what I learn into useful, well-structured software.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-row">
+              <span>Location</span>
+              <strong>Vadodara, Gujarat, India</strong>
+            </div>
+            <div class="info-row">
+              <span>Education</span>
+              <strong>Information Technology</strong>
+            </div>
+            <div class="info-row">
+              <span>University</span>
+              <strong>Drs. Kiran &amp; Pallavi Patel Global University</strong>
+            </div>
+            <div class="info-row">
+              <span>Current focus</span>
+              <strong>Backend &amp; Full Stack Development</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Skills &amp; technologies.</h2>
+        <p class="section-description">
+          Technologies I'm learning and using to build my projects.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">01</div>
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>Java</span><span>JavaScript</span><span>C</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">02</div>
+          <h3>Backend &amp; Databases</h3>
+          <div class="tags">
+            <span>Spring Boot</span><span>Node.js</span>
+            <span>Express.js</span><span>MySQL</span><span>REST APIs</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">03</div>
+          <h3>Frontend &amp; Tools</h3>
+          <div class="tags">
+            <span>React.js</span><span>HTML5</span><span>CSS3</span>
+            <span>Git</span><span>GitHub</span><span>VS Code</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects I've been building.</h2>
+          <p class="section-description">
+            Practical projects that help me strengthen my development skills.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">PROJECT / 01</div>
+            <div class="project-visual visual-blue" aria-hidden="true">
+              <span class="visual-symbol">▤</span>
+              <span class="visual-caption">STUDENT MANAGEMENT</span>
+            </div>
+            <h3>Student Record &amp; Course Management System</h3>
+            <p>
+              A database-driven application for managing student records
+              and course information through CRUD operations and REST APIs.
+            </p>
+            <ul class="project-points">
+              <li>Create, read, update and delete student records</li>
+              <li>REST API design and request validation</li>
+              <li>MySQL database integration</li>
+            </ul>
+            <div class="tags">
+              <span>Node.js</span><span>Express.js</span><span>MySQL</span>
+            </div>
+            <!-- Add your repository URL when the project is published -->
+            <a class="project-link" href="https://github.com/YOUR_USERNAME"
+              target="_blank" rel="noopener noreferrer">
+              View on GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT / 02</div>
+            <div class="project-visual visual-purple" aria-hidden="true">
+              <span class="visual-symbol">&lt;/&gt;</span>
+              <span class="visual-caption">PERSONAL PORTFOLIO</span>
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>
+              A responsive personal website showcasing my background,
+              technical skills, selected projects, and contact details.
+            </p>
+            <ul class="project-points">
+              <li>Responsive layout for mobile and desktop</li>
+              <li>Interactive theme switching with JavaScript</li>
+              <li>DOM manipulation and form validation</li>
+            </ul>
+            <div class="tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a class="project-link" href="https://github.com/YOUR_USERNAME"
+              target="_blank" rel="noopener noreferrer">
+              View on GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section container" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have a project in mind?</h2>
+        <p class="section-description">
+          I'm open to connecting with developers, learning from new
+          opportunities, and discussing interesting projects.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <p class="contact-label">EMAIL ME DIRECTLY</p>
+          <a class="email-link" href="mailto:darshsolanki88@gmail.com">
+            darshsolanki88@gmail.com
+          </a>
+          <p class="muted">
+            Feel free to reach out about projects, collaboration,
+            or development opportunities.
+          </p>
+          <div class="contact-note">
+            <span class="status-dot"></span> Based in Vadodara, India
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name"
+              placeholder="Enter your name" required minlength="2"
+              maxlength="80" autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email"
+              placeholder="you@example.com" required maxlength="254"
+              autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Tell me what you're thinking..." required
+              minlength="10" maxlength="3000"></textarea>
+          </div>
+
+          <button class="button button-primary submit-button" type="submit">
+            Send Message <span aria-hidden="true">↗</span>
+          </button>
+          <p class="form-note" id="formNote" aria-live="polite">
+            This demo validates your message in the browser.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">Darsh<span>.dev</span></a>
+      <p>© 2026 Darsh Solanki. Built with clean code.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
